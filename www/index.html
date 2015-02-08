@@ -45,10 +45,10 @@
             <div data-role="tabs">
                 <div id="Vibration" class="ui-content">
                     <h2>Selecciona una opción</h2>
-                    <ul data-role="listview" id="listaA">
+                    <ul data-role="listview" data-split-icon="plus" data-theme="a" data-split-theme="b" data-split-icon="plus" data-inset="true" id="listaA">
                         <li>
-                            <a href="#" id="vibrar" onclick="vibrar();"><img src="img/beep.jpg"/><h2>Vibrar</h2><p>Vibrar el tel&eacutefono.</p></a></li>
-                        <li><a href="#" id="beep" onclick="beep();"><img src="img/vibrar.png"/><h2>Escuchar beep</h2><p>Escuchar beep del tel&eacutefono.</p></a></li>
+                            <a href="#"  data-rel="popup" data-position-to="window" data-transition="pop" id="vibrar" onclick="vibrar();"><h2>Vibrar</h2><p>Vibrará Teléfono</p></a></li>
+                        <li><a href="#"  data-rel="popup" data-position-to="window" data-transition="pop" id="beep" onclick="beep();"><h2>Escuchar beep</h2><p>Sonará el beep del Teléfono</p></a></li>
                     </ul>
                 </div>
             </div>
